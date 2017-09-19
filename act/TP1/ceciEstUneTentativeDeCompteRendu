@@ -1,0 +1,35 @@
+Compte rendu
+1)
+  1)
+  La seule ligne de toits c'est (2, 0)(2, 5)(4, 5)(4, 7)5, 7)(6, 7)(5, 0)
+
+  2)
+  Pour être lisible il faut qu'une variable soit commune entre deux itérations successives et ne pas
+  revenir en arrière sur les abscisses
+
+  3)
+  C'est cette ligne de merde 1,1 1,13 5,13 5,20 9,20 9,27 12,27 12,3 16,3 19,3 19,0 22,0 22,3 25,3 25,0
+
+2)
+  Je suis pas sur d'être certain d'avoir bien compris mais je pense qu'il s'agit d'une complexité en x*y
+  où x correspond à l'abscisse d'un point et y à son ordonnée après s'il fait ça l'algo est très con et n'est donc
+  pas intelligent (du coup c'est con et lourd)
+
+q2(n,list)
+  on crée un tableau à deux dimensions (x et y)
+  
+
+
+3)
+
+  test(tableau de triplets d'int)
+    on crée un tableau qui servira à recevoir le resultat;
+
+    on trie le tableau (quicksort FTW on économise des calculs comme on peut)
+
+    si 2 des triplets possèdent une même origine on a l'espoir de réussir de créer un (ou plusieurs)
+    immeuble à partir la hauteur maximale et de la longueur de chaque immeuble (ex
+
+    une fois cela fait on développe le tout en ligne de toits (ex: 1,9,3 3,12,8) donne 1,0 1,9 3,9 3,12 8,12 8,0
+
+    Enfin on balance le tout

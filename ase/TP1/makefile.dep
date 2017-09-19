@@ -1,0 +1,6 @@
+display_stack.o: display_stack.c
+try.o: try.c try.h
+try_mul.o: try_mul.c try.h
+try_mul.o: try_mul.c try.h
+display_stack.o: display_stack.c
+try.o: try.c try.h

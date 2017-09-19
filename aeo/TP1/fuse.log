@@ -1,0 +1,22 @@
+Running: /opt/Xilinx/12.4/ISE_DS/ISE/bin/lin64/unwrapped/fuse -intstyle ise -incremental -lib secureip -o /home/m1/deregnaucourt/Documents/Master/aeo/TP1/my_add_isim_beh.exe -prj /home/m1/deregnaucourt/Documents/Master/aeo/TP1/my_add_beh.prj work.my_add 
+ISim M.81d (signature 0x9ca8bed6)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "/home/m1/deregnaucourt/Documents/Master/aeo/TP1/my_add.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 73076 KB
+Fuse CPU Usage: 50 ms
+Using precompiled package standard from library std
+Using precompiled package std_logic_1164 from library ieee
+Using precompiled package std_logic_arith from library ieee
+Using precompiled package std_logic_unsigned from library ieee
+Compiling architecture behavioral of entity my_add
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 5 VHDL Units
+Built simulation executable /home/m1/deregnaucourt/Documents/Master/aeo/TP1/my_add_isim_beh.exe
+Fuse Memory Usage: 635308 KB
+Fuse CPU Usage: 70 ms
+GCC CPU Usage: 110 ms
