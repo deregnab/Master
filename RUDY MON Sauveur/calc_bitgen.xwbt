@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/m1/seys/Cours/AEO/tp3/calc.ncd
+OUTFILE=/home/m1/seys/Cours/AEO/tp3/calc.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/m1/seys/Cours/AEO/tp3
+LICENSE=WebPack
+USER_INFO=0_0_579
