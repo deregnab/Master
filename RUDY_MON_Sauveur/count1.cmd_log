@@ -1,0 +1,1 @@
+vhdtdtfi -prj tp3 -o /home/m1/seys/Cours/AEO/tp3/count1.vhi -lib work /home/m1/seys/Cours/AEO/tp3//count1.vhd -module count1 -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

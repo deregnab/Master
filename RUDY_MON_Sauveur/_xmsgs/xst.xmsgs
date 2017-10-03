@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="1369" delta="new" >"/home/m1/seys/Cours/AEO/tp3/parity.vhd" Line 40: Possible infinite loop; process does not have a wait statement
+</msg>
+
+<msg type="warning" file="HDLCompiler" num="1369" delta="new" >"/home/m1/seys/Cours/AEO/tp3/count1.vhd" Line 43: Possible infinite loop; process does not have a wait statement
+</msg>
+
+</messages>
+
