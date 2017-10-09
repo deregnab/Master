@@ -1,0 +1,5 @@
+vhdtdtfi -prj tp4 -o /home/m1/dambrine/cours/m1s1/aeo/tp4/shift.vhi -lib work /home/m1/dambrine/cours/m1s1/aeo/tp4//shift.vhd -module shift -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 
+xst -intstyle ise -ifn "/home/m1/dambrine/cours/m1s1/aeo/tp4/shift.xst" -ofn "/home/m1/dambrine/cours/m1s1/aeo/tp4/shift.syr" 
+xst -intstyle ise -ifn "/home/m1/dambrine/cours/m1s1/aeo/tp4/shift.xst" -ofn "/home/m1/dambrine/cours/m1s1/aeo/tp4/shift.syr" 
+xst -intstyle ise -ifn "/home/m1/dambrine/cours/m1s1/aeo/tp4/shift.xst" -ofn "/home/m1/dambrine/cours/m1s1/aeo/tp4/shift.syr" 
+xst -intstyle ise -ifn "/home/m1/dambrine/cours/m1s1/aeo/tp4/shift.xst" -ofn "/home/m1/dambrine/cours/m1s1/aeo/tp4/shift.syr" 

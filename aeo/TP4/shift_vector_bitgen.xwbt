@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/m1/dambrine/cours/m1s1/aeo/tp4/shift_vector.ncd
+OUTFILE=/home/m1/dambrine/cours/m1s1/aeo/tp4/shift_vector.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/m1/dambrine/cours/m1s1/aeo/tp4
+LICENSE=WebPack
+USER_INFO=0_0_579
