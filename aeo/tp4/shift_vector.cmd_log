@@ -1,0 +1,10 @@
+xst -intstyle ise -ifn "/home/m1/dambrine/cours/m1s1/aeo/tp4/shift_vector.xst" -ofn "/home/m1/dambrine/cours/m1s1/aeo/tp4/shift_vector.syr" 
+xst -intstyle ise -ifn "/home/m1/dambrine/cours/m1s1/aeo/tp4/shift_vector.xst" -ofn "/home/m1/dambrine/cours/m1s1/aeo/tp4/shift_vector.syr" 
+xst -intstyle ise -ifn "/home/m1/dambrine/cours/m1s1/aeo/tp4/shift_vector.xst" -ofn "/home/m1/dambrine/cours/m1s1/aeo/tp4/shift_vector.syr" 
+xst -intstyle ise -ifn "/home/m1/dambrine/cours/m1s1/aeo/tp4/shift_vector.xst" -ofn "/home/m1/dambrine/cours/m1s1/aeo/tp4/shift_vector.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc shift_vector_constraints.ucf -bm td_ex2.bmm -p xc6slx16-csg324-3 shift_vector.ngc shift_vector.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o shift_vector_map.ncd shift_vector.ngd shift_vector.pcf 
+par -w -intstyle ise -ol high -mt off shift_vector_map.ncd shift_vector.ncd shift_vector.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml shift_vector.twx shift_vector.ncd -o shift_vector.twr shift_vector.pcf -ucf shift_vector_constraints.ucf 
+bitgen -intstyle ise -f shift_vector.ut shift_vector.ncd 
+vhdtdtfi -prj tp4 -o /home/m1/dambrine/cours/m1s1/aeo/tp4/shift_vector.vhi -lib work /home/m1/dambrine/cours/m1s1/aeo/tp4//shift_vector.vhd -module shift_vector -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

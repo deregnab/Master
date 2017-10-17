@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/m1/dambrine/cours/m1s1/aeo/tp4/fpd.xst" -ofn "/home/m1/dambrine/cours/m1s1/aeo/tp4/fpd.syr" 
+vhdtdtfi -prj tp4 -o /home/m1/dambrine/cours/m1s1/aeo/tp4/fpd.vhi -lib work /home/m1/dambrine/cours/m1s1/aeo/tp4//fpd.vhd -module fpd -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

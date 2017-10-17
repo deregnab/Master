@@ -1,1 +1,0 @@
-vhdtdtfi -prj tp3 -o /home/m1/seys/Cours/AEO/tp3/parity.vhi -lib work /home/m1/seys/Cours/AEO/tp3//parity.vhd -module parity -template /opt/Xilinx/12.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror 

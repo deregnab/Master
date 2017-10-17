@@ -1,0 +1,42 @@
+Release 12.4 ngdbuild M.81d (lin64)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Command Line: /opt/Xilinx/12.4/ISE_DS/ISE/bin/lin64/unwrapped/ngdbuild -intstyle
+ise -dd _ngo -nt timestamp -uc shift_vector_constraints.ucf -bm td_ex2.bmm -p
+xc6slx16-csg324-3 shift_vector.ngc shift_vector.ngd
+
+Reading NGO file "/home/m1/dambrine/cours/m1s1/aeo/tp4/shift_vector.ngc" ...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "shift_vector_constraints.ucf"
+...
+Resolving constraint associations...
+Checking Constraint Associations...
+Done...
+
+Processing BMM file "td_ex2.bmm" ...
+
+WARNING:Data2MEM:53 - File 'td_ex2.bmm' was empty or had no BMM content.
+
+
+Checking expanded design ...
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:   0
+
+Total memory usage is 254204 kilobytes
+
+Writing NGD file "shift_vector.ngd" ...
+Total REAL time to NGDBUILD completion:  1 sec
+Total CPU time to NGDBUILD completion:   1 sec
+
+Writing NGDBUILD log file "shift_vector.bld"...
